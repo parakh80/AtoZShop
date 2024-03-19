@@ -2,7 +2,20 @@
 
 Welcome to AtoZShop! This project is a MERN-based E-commerce platform developed with advanced features, user authentication, and Stripe payment integration for seamless transactions.
 
-## Features:
+ #### Home:
+ ![Home](frontend/public/images/demo/home.png)
+
+ #### Admin Dashboard:
+ ![Admin Dashboard](frontend/public/images/demo/admin_dashboard.png)
+
+ #### Filter Functionality:
+ ![Filter](frontend/public/images/demo/filter_functionality_of_app.png)
+
+ #### Product Detail:
+  ![Product Detail](frontend/public/images/demo/product_detail.png)
+
+ #### User Profile:
+  ![User Profile](frontend/public/images/demo/user_profile.png)
 
 - **User Authentication:** Users can sign up, log in, and manage their profiles securely.
 - **Stripe Payment Integration:** Seamlessly process transactions using Stripe payment gateway.
