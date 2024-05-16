@@ -5,9 +5,7 @@
   "description": "Ecommerce App",
   "main": "app.js",
   "scripts": {
-    "start": "node backend/app.js",
-    "dev": "NODE_ENV=DEVELOPMENT nodemon backend/app.js",
-    "prod": "NODE_ENV=PRODUCTION nodemon backend/app.js",
+    "start": "nodemon backend/app.js",
     "seeder": "node backend/seeder/seeder.js"
   },
   "author": "Parakh Patel",

@@ -37,16 +37,31 @@ Welcome to AtoZShop! This project is a MERN-based E-commerce platform developed 
 
 ## Getting Started:
 
-1. **Clone the Repository:** `git clone https://github.com/parakh80/AtoZShop.git`
+   1. **Clone the Repository:** `git clone https://github.com/parakh80/AtoZShop.git`
 2. **Install Dependencies:**
    - Backend: `cd AtoZShop/backend && npm install`
    - Frontend: `cd AtoZShop/frontend && npm install`
 3. **Set Environment Variables:**
    - Create a `.env` file in the backend directory and add necessary environment variables.
 4. **Run the Development Server:**
-   - Backend: `npm run dev` in the backend directory
-   - Frontend: `npm start` in the frontend directory
+   
+    ***Backend:***
+- **For production:**
+  - Go to the config file and change `NODE_ENV` to `PRODUCTION`.
+  - Run `npm start`.
+- **For development:**
+  - Go to the config file and change `NODE_ENV` to `DEVELOPMENT`.
+  - Run `npm start`.
+
+   ***Frontend:***
+   - Run `npm start` in the frontend directory.
+
 5. **Open Your Browser:** Visit http://localhost:3000 to view the application.
+ 
+6. **Adding Products to Database:**
+   - Navigate to `backend -> models -> product.js`.
+   - Comment out the `User` object in `productSchema` to avoid user validation errors when adding products to the database.
+   - In the backend console, run `npm run seeder` to add products to the database.
 
 ## Deployment:
 
